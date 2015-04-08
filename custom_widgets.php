@@ -9,8 +9,6 @@
 	
 	function dashboardWidgetContent() {
 		$user = wp_get_current_user();
-		$url = home_url( $path = '/', $scheme = https );
-		echo $url;
 		echo "Hoi <strong>" . $user->user_firstname . "</strong>, hier vind je antwoorden op de meest gestelde vragen en alle handleidingen. </br>";
 		echo '</br>';
 		echo '<ul>';
