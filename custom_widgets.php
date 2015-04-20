@@ -10,12 +10,17 @@
 	function dashboardWidgetContent() {
 		$user = wp_get_current_user();
 		echo "Hoi <strong>" . $user->user_firstname . "</strong>, hier vind je antwoorden op de meest gestelde vragen en alle handleidingen. </br>";
-		echo '</br>';
-		echo '<ul>';
-		echo '<lh>Kies een van de opties:</lh>';
-		echo "<li><a href=\"http://www.ongekunsteld.net/handleiding-redigeren/\">Handleiding Redigeren</a></li>";
-		echo "<li><a href=\"http://www.ongekunsteld.net/handleiding-beeldmakers/\">Handleiding Beeldmakers</a></li>";
+		echo '<ul>';	
+		echo "<li><a href=\"https://www.ongekunsteld.net/handleiding-tekst/\">Teksten schrijven</a></li>";
+		echo "<li><a href=\"https://www.ongekunsteld.net/verdieping/\">Schrijftips</a></li>";
+		echo "<li><a href=\"https://www.ongekunsteld.net/handleiding-beeld/\">Beelden maken</a></li>";
+		echo "<li><a href=\"https://www.ongekunsteld.net/handleiding-feedback/\">Teksten redigeren</a></li>";
+		echo "<li><a href=\"https://www.ongekunsteld.net/email/\">Neem contact op</a></li>";
+		echo "<li><a href=\"https://www.ongekunsteld.net/overzicht-aanvragen/\">Zie alle recensie-aanvragen</a></li>";
+		echo "<li><a href=\"https://www.ongekunsteld.net/help/\">Bugs doorgeven</a></li>";
 		echo '</ul>';
 	}
 	
 ?>
+
+
